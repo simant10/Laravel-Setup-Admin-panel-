@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="description" content="Admin Panel" />
 <meta name="author" content="" />
-
+<title>BusBooking @yield('title')</title>
 <title>Admin | Login</title>
 <link rel="stylesheet" href="<?php echo asset('js/jquery-ui/css/no-theme/jquery-ui-1.10.3.custom.min.css')?>" type="text/css">
 <link rel="stylesheet" href="<?php echo asset('css/font-icons/entypo/css/entypo.css')?>" type="text/css">
