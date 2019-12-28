@@ -9,7 +9,9 @@ class StateController extends Controller
         $this->curlHitObj = new CurlHit();
     }
     public function index(){ 
-        $response = $this->curlHitObj->apiCall();
+       // $response = $this->curlHitObj->curlHit();
+        //TODO 
+        // Handle REsponse Here
         return view('statelist', []);
     }
     
